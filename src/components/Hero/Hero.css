@@ -1,0 +1,46 @@
+.hero-container {
+  background: green;
+  
+  color: white;
+}
+
+.hero-sub-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 70px;
+ 
+}
+
+.hero-btn {
+  border: none;
+  padding:10px 20px;
+  color: black;
+  background-color: orange;
+  border-radius: 10px;
+}
+.hero-sec-btn {
+  border: none;
+  padding: 10px 20px;
+  color: orange;
+  background-color: white;
+  border-radius: 10px;
+  margin-left: 20px;
+}
+
+@media screen and (max-width: 480px) {
+  .hero-sub-container {
+    display: flex;
+    flex-direction: column;
+    margin: 70px;
+    border: 1px solid red;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .hero-sub-container {
+    display: flex;
+    flex-direction: column;
+    margin: 70px;
+    border: 1px solid red;
+  }
+}

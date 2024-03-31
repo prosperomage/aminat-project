@@ -1,0 +1,38 @@
+.cta-container {
+  color: white;
+  background: green;
+}
+.cta-inner-div {
+  margin: 20px 100px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.cta-header {
+  font-size: 22px;
+}
+
+.cta-btns{
+margin-top: 10px;
+}
+.cta-btn {
+  border: none;
+  padding: 10px 20px;
+  color: black;
+  background-color: orange;
+  border-radius: 10px;
+}
+.cta-sec-btn {
+  border: none;
+  padding: 10px 20px;
+  color: orange;
+  background-color: white;
+  border-radius: 10px;
+  margin-left: 20px;
+}
+
+.cta-content {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+}

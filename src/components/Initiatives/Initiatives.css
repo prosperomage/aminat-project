@@ -1,0 +1,31 @@
+.initiatives-parent-container {
+  background: #aa9494;
+}
+.initiative-child-container {
+  margin: 40px 70px;
+}
+h1 {
+  align-items: center;
+  justify-content: center;
+}
+.btn-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-children {
+  border: none;
+  padding: 10px 20px;
+  color: orange;
+  background-color: white;
+  border-radius: 10px;
+  margin-left: 20px;
+}
+
+.ini-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: yellow;
+  color: white;
+}

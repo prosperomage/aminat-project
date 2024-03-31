@@ -1,0 +1,22 @@
+.missions-ressons {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10px 50px;
+}
+/* .block-1 {
+  border: 1px solid red;
+}
+.inner-block {
+  border: 1px solid black;
+} */
+
+.inner-block-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.img-style{
+    width: 300px;
+    height: 200px;
+}
+

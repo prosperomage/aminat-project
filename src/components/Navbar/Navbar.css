@@ -1,0 +1,42 @@
+.nav-parent{
+
+    background: grey;
+   
+}
+.nav-container{
+    margin: 0 17px;
+    display: flex;
+    justify-content: space-between;
+   
+   
+}
+ul{
+    list-style: none;
+    text-decoration: none;
+}
+li{
+    font: bold;
+}
+a{
+    margin-right: 20px;
+    color: black;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+}
+
+.request-btn{
+    border: none;
+    padding: 10px;
+    color: black;
+    background-color: orange;
+    border-radius: 10px;
+}
+
+@media screen and (max-width:1080px) {
+    .nav-links{
+        display: hidden;
+    }
+}

@@ -1,0 +1,11 @@
+/* .vision-container{
+    border: 1px solid red;
+} */
+.ini-text{
+    justify-content: center;
+    align-items: center;
+}
+.vision-ressons{
+    display: flex;
+    margin: 10px 60px;
+}
